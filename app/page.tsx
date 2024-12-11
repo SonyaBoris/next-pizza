@@ -16,12 +16,20 @@ export default function Home() {
         <div className="flex-1">
           <div className="flex flex-col gap-16">
             <ProductsGroupList
-            categoryId={0}
-             title="Пиццы" 
-            items={[
-              {},
-              {},
-            ]} />
+              categoryId={1}
+              title="Пиццы"
+              items={[
+                {},
+                {},
+              ]} />
+            <ProductsGroupList
+              categoryId={2}
+              title="Комбо"
+              items={[ 
+                {},
+                {},
+              ]} />
+           
           </div>
         </div>
       </Container>
